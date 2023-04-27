@@ -1,0 +1,42 @@
+
+
+.col_1, .col_2, .col_4, .col_5,.col_6,.col_7,.col_8,.col_9,.col_10{
+
+
+    float: left;
+    padding: 0 1% 0 1%;
+}
+
+.col_1{
+    width: 11%;
+}
+
+.col_2{
+    width: 21%;
+}
+.col_3{
+    width: 31%;
+}
+.col_4{
+    width: 41%;
+}
+.col_5{
+    width: 51%;
+}
+.col_6{
+    width: 61%;
+}
+.col_7{
+    width: 71%;
+}
+.col_8{
+    width: 81%;
+}
+.col_9{
+    width: 91%;
+}
+.col_10{
+    width: 98%;
+}
+
+
