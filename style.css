@@ -1,0 +1,29 @@
+.container{
+}
+
+.row{
+}
+
+.col_1, .col_2, .col_3, .col_4{
+
+    float: left;
+    padding: 0 1% 0 1%;
+}
+
+.col_1{
+    width: 6%;
+}
+
+.col_2{
+    width: 14%;
+}
+
+.col_3{
+    width: 22%;
+}
+
+.col_4{
+    width: 30%;
+}
+
+
