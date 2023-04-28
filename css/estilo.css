@@ -26,6 +26,7 @@ h1{
     margin: 0 30px;
 }
 
+
 .galeria{
     display: flex;
     flex-wrap: wrap;
@@ -42,4 +43,6 @@ h1{
 img{
     max-width: 100%;
     display: block;
+    border: solid black;
+    border-radius: 30px;
 }
