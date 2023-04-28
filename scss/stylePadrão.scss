@@ -3,10 +3,7 @@
 @mixin brilho ($branco, $azul,$vermelho){
     font-family: 'century gothic';
         color: #ffffcc;
-        text-shadow: 0 0 5px $branco,
-                     0 0 10px $branco, 
-                     0 0 20px  $branco, 
-                     0 0 30px $branco, 
+        text-shadow: 0 0 5px $branco, 
                      0 0 40px $branco, 
 }
 
