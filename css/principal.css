@@ -7,10 +7,8 @@
 
 }
 #Sobre p{
-    
     font-size: 35px ;
     color: white;
-    
 }
 #legenda{
     position: relative;
@@ -75,12 +73,13 @@
 #Sobre{
 display: flex;
 flex-direction: column;
+width: 1400px;
 margin: auto;
 }
 
 @media screen and (max-width: 560px){
     #sobre{
-        display: flex;
+    display: flex;
        flex-direction: column;
     
     }

@@ -10,13 +10,10 @@ h1{
     font-size: 40px;
     font-family: "century gothic";
     color: #ffffcc;
-    text-shadow: 0 0 5px #ffffff, 
-    0 0 10px #ffffff,
-     0 0 20px #ffffff,
-      0 0 30px #ffffff, 
-      0 0 40px #ffffff,
-       0 0 55px #ff0000, 
-       0 0 70px #0000ff;
+    text-shadow: 
+        0 0 5px #ffffff, 
+       0 0 55px white, 
+       0 0 70px white;
 
 }
 
@@ -25,7 +22,7 @@ h2{
     font-size: 30px;
     font-family: "century gothic";
     color: #ffffcc;
-    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 55px #ff0000, 0 0 70px #0000ff;
+    text-shadow: 0 0 5px #ffffff, 0 0 55px white, 0 0 70px white;
 }
 p{
     font-size: 30px;
@@ -37,6 +34,7 @@ p{
     grid-template-columns: 1fr 1fr;
     gap: 5vw;
     margin: 5vw;
+    margin: 1400px;
 }
 
 #text1{
