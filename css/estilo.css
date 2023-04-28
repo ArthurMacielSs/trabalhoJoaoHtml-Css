@@ -8,8 +8,8 @@ img#icone_site
 {
     display: flex;
     align-items: center;
-    background-color: black;
-    color: white;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
 }
 #header h1{
     margin-top: 50px;
@@ -17,9 +17,9 @@ img#icone_site
     font-size: 40px;
     font-family: 'century gothic';
     color: #ffffcc;
-    text-shadow: 0 0 5px blue,
+    text-shadow: 0 0 5px white,
                  0 0 10px #fff, 
-                 0 0 20px  red, 
+                 0 0 20px  white, 
                  0 0 30px blue, 
                  0 0 40px white, 
                  0 0 55px red, 
@@ -34,7 +34,7 @@ img#icone_site
 }
 
 #sideBar a{
-    font-size: 30px;
+    font-size: 27px;
     font-family: 'century gothic';
     color: #ffffcc;
     text-shadow: 0 0 5px blue,
@@ -54,6 +54,8 @@ img#icone_site
     align-items: center;
     background-color: black;
     color: white;
+
+    
 }
 #footer a{
     
@@ -69,6 +71,6 @@ img#icone_site
                  
 }
 
-/*coisas para fazer: alinhar os textos do pe, alinhar os elementos da barra lateral á esquerda,*/
+/*coisas para fazer: alinhar os elementos da barra lateral á esquerda,*/
 
 
