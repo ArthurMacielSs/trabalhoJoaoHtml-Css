@@ -8,8 +8,51 @@
     
 }
 #legenda{
-    
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    z-index: 1;
 }
+#legenda::before{
+    content: '';
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-image: conic-gradient(transparent,transparent,transparent,#00ffad);
+    animation: rotate 4s linear infinite;
+
+}
+#legenda::after{
+    content: '';
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-image: conic-gradient(transparent,transparent,transparent,red);
+    animation: rotate 4s linear infinite;
+    animation-delay: -2s;
+}
+#legenda span{
+    position: absolute;
+    inset: 5px;
+    border-radius: 16px;
+    background-color: #000000;
+  
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
 #Sobre h1{
     margin-top: 50px;
     text-align: center;
