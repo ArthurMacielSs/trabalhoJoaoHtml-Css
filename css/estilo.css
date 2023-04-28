@@ -51,10 +51,10 @@ h1{
     margin-bottom: 10px;
 }
 
-img{
+#classePrincipal img{
     max-width: 100%;
     display: block;
-    border: solid black;
+    border: solid white;
     border-radius: 30px;
 }
 
