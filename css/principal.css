@@ -59,9 +59,3 @@
     font-size: 40px;
    color: white;
 }
-
-#Videos{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
