@@ -62,10 +62,6 @@ body{
     align-items: center;
     background-color: black;
     color: white;
-
-    a{
-        
-        @include brilho ($branco, $azul,$vermelho);
-        
-    }
+    
+   
 }
