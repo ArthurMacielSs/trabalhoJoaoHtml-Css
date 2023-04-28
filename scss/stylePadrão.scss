@@ -14,7 +14,7 @@
 
 body{
     background-image: linear-gradient(to right, $azul, $vermelho);
-    margin: 0px;
+    margin:0px;
 }
 
 #header{
@@ -39,11 +39,18 @@ body{
     height: 170vh;
 
     a{
-        margin-top: 50px;
+        margin-top: 60px;
         text-align: center;
-        font-size: 30px;
+        font-size: 20px;
         @include brilho ($branco, $azul,$vermelho);
     }
+    ul{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        padding-left: 10%;
+    }
+  
 }
 
 #footer{
