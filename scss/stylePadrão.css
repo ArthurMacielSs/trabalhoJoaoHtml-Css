@@ -55,24 +55,4 @@ body {
   font-family: "century gothic";
   color: #ffffcc;
   text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff;
-}
-
-@media screen and (max-width: 560px) {
-  #geral {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  #geral #header {
-    width: 100%;
-  }
-  #geral #sidebar {
-    width: 49%;
-  }
-  #geral #main {
-    width: 49%;
-  }
-  #geral #footer {
-    width: 100%;
-  }
 }/*# sourceMappingURL=stylePadrão.css.map */
