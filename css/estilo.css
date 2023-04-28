@@ -9,7 +9,7 @@ h1{
     text-align: center;
     margin-bottom: 50px;
 }
-margin-right: 30px;
+
 #classePrincipal{
     margin-top: 0px;
 }
@@ -25,6 +25,7 @@ margin-right: 30px;
     flex: 1 1 200px;
     margin: 0 30px;
 }
+
 
 .galeria{
     display: flex;
@@ -42,66 +43,6 @@ margin-right: 30px;
 img{
     max-width: 100%;
     display: block;
+    border: solid black;
+    border-radius: 30px;
 }
-.falcao{transition:2s all;}
-.petroleo{transition:2s all;}
-.marte{transition:2s all;}
-.tentaculos{transition:2s all;}
-.obama{transition:2s all;}
-.dominio{transition:2s all;}
-.cuba{transition:2s all;}
-.stick{transition:2s all;}
-.panama{transition:2s all;}
-.iraque{transition:2s all;}
-.abocanhando{transition:2s all;}
-.leao{transition:2s all;}
-
-.falcao:hover{
-    background: white;
-    transform: scale(1.2);
-}
-.petroleo:hover{
-    background: white;
-    transform: scale(1.2);
-}
-.marte:hover{
-    background: white;
-    transform: scale(1.2);
-}
-.tentaculos:hover{
-    background: white;
-    transform: scale(1.2);
-}
-.obama:hover{
-    background: white;
-    transform: scale(1.2);
-}
-.dominio:hover{
-    background: white;
-    transform: scale(1.2);
-}
-.cuba:hover{
-    background: white;
-    transform: scale(1.2);
-}
-.stick:hover{
-    background: white;
-    transform: scale(1.2);
-}
-.panama:hover{
-    background: white;
-    transform: scale(1.2);
-}
-.iraque:hover{
-    background: white;
-    transform: scale(1.2);
-}
-.abocanhando:hover{
-    background: white;
-    transform: scale(1.2);
-}
-.leao:hover{
-    background: white;
-    transform: scale(1.2);
-}
-
