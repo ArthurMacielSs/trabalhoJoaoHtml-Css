@@ -1,5 +1,10 @@
 /* Prates alterações */
 
+h1, p{
+    color: white;
+}
+
+
 body{
     background-image: linear-gradient(to right, blue, red);
     margin: 0px;
@@ -46,4 +51,6 @@ h1{
 img{
     max-width: 100%;
     display: block;
+    border: solid black;
+    border-radius: 30px;
 }
