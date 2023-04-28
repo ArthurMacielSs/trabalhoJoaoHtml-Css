@@ -73,8 +73,29 @@
 }
 
 #Sobre{
-width: 1400px;
 display: flex;
 flex-direction: column;
 margin: auto;
+}
+
+@media screen and (max-width: 560px){
+    #sobre{
+        display: flex;
+       flex-direction: column;
+    
+    }
+
+    #Videos{
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+    #footer{
+        width: 550px;
+        position: fixed;
+        bottom: 0;
+    }
+     
+    
+    
 }
