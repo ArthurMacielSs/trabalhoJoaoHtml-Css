@@ -8,8 +8,8 @@ img#icone_site
 {
     display: flex;
     align-items: center;
-    background-color: rgb(0, 0, 0);
-    color: #ffffff;
+    background-color: black;
+    color: white;
 }
 #header h1{
     margin-top: 50px;
@@ -17,9 +17,9 @@ img#icone_site
     font-size: 40px;
     font-family: 'century gothic';
     color: #ffffcc;
-    text-shadow: 0 0 5px white,
+    text-shadow: 0 0 5px blue,
                  0 0 10px #fff, 
-                 0 0 20px  white, 
+                 0 0 20px  red, 
                  0 0 30px blue, 
                  0 0 40px white, 
                  0 0 55px red, 
@@ -30,11 +30,10 @@ img#icone_site
     background-color: black;
     color: white;
     height: 170vh;
-    
 }
 
 #sideBar a{
-    font-size: 27px;
+    font-size: 30px;
     font-family: 'century gothic';
     color: #ffffcc;
     text-shadow: 0 0 5px blue,
@@ -54,8 +53,6 @@ img#icone_site
     align-items: center;
     background-color: black;
     color: white;
-
-    
 }
 #footer a{
     
@@ -71,6 +68,52 @@ img#icone_site
                  
 }
 
-/*coisas para fazer: alinhar os elementos da barra lateral á esquerda,*/
+/* Prates alterações */
 
+body{
+    background-image: linear-gradient(to right, blue, red);
+    margin: 0px;
+}
 
+#sideBar h2{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#classePrincipal{
+    margin-top: 0px;
+}
+
+.grupo{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grupo > div{
+    flex: 1 1 200px;
+    margin: 0 30px;
+}
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.galeria > div{
+    flex: 1 1 200px;
+    margin: 0 30px;
+    margin-bottom: 10px;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
