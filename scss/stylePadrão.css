@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(to top, black, #191970);
+  background-image: linear-gradient(to top, #0D090B, black);
   margin: 0px;
 }
 
@@ -15,7 +15,7 @@ body {
   font-size: 40px;
   font-family: "century gothic";
   color: #ffffcc;
-  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 55px #ff0000, 0 0 70px #0000ff;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff;
 }
 #header #icone_site {
   width: 130px;
@@ -33,7 +33,7 @@ body {
   font-size: 20px;
   font-family: "century gothic";
   color: #ffffcc;
-  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 55px #ff0000, 0 0 70px #0000ff;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff;
 }
 #sideBar ul {
   display: flex;
@@ -54,5 +54,5 @@ body {
 #footer a {
   font-family: "century gothic";
   color: #ffffcc;
-  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 55px #ff0000, 0 0 70px #0000ff;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff;
 }/*# sourceMappingURL=stylePadrão.css.map */
