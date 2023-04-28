@@ -1,6 +1,11 @@
 #classePrincipal{
     height: 170vh;
 }
+#Sobre #sobreFoto{
+    width: 200px;
+    
+
+}
 #Sobre p{
     
     font-size: 35px ;
