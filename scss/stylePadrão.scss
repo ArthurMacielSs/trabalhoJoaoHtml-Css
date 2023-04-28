@@ -68,25 +68,3 @@ body{
     }
 }
 
-@media screen and (max-width: 560px){
-    #geral{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        #header{
-            width: 100%;
-        }
-        #sidebar{
-            width: 49%;
-        }
-        .main{
-            width: 49%;
-        }
-        #footer{
-            width: 100%;
-        }
-    }
-     
-    
-    
-}
