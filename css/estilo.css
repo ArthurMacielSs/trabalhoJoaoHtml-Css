@@ -1,5 +1,6 @@
 /* Prates alterações */
 
+
 h1, p{
     color: white;
 }
@@ -9,6 +10,8 @@ body{
     background-image: linear-gradient(to right, blue, red);
     margin: 0px;
 }
+
+
 
 #sideBar h2{
     text-align: center;
@@ -34,6 +37,7 @@ h1{
     flex: 1 1 200px;
     margin: 0 30px;
 }
+
 
 .galeria{
     display: flex;

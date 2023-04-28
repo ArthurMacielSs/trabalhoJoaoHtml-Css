@@ -32,3 +32,32 @@ p{
     color: white;
 }
 
+#TUDOSOBRE{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5vw;
+    margin: 5vw;
+}
+
+#text1{
+    background-color: black;
+    min-height: 30vh;
+    border-radius: 20px;
+}
+#text2{
+    background-color: black;
+    min-height: 30vh;
+    border-radius: 20px;
+}
+#text3{
+    background-color: black;
+    min-height: 30vh;
+    border-radius: 20px;
+}
+#text4{
+   
+    margin: auto;
+    background-color: black;
+    min-height: 30vh;
+    border-radius: 20px;
+}
