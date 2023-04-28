@@ -12,6 +12,10 @@
                      0 0 70px $azul;
 }
 
+body{
+    background-image: linear-gradient(to right, $azul, $vermelho);
+    margin: 0px;
+}
 
 #header{
     display: flex;
@@ -37,7 +41,7 @@
     a{
         margin-top: 50px;
         text-align: center;
-        font-size: 40px;
+        font-size: 30px;
         @include brilho ($branco, $azul,$vermelho);
     }
 }

@@ -1,3 +1,9 @@
+@charset "UTF-8";
+body {
+  background-image: linear-gradient(to right, #0000ff, #ff0000);
+    margin:  0px;
+}
+
 #header {
   display: flex;
   align-items: center;
@@ -10,7 +16,7 @@
   font-size: 40px;
   font-family: "century gothic";
   color: #ffffcc;
-  text-shadow: 0 0 5px "#ffffff", 0 0 10px "#ffffff", 0 0 20px "#ffffff", 0 0 30px "#ffffff", 0 0 40px "#ffffff", 0 0 55px "#ff0000", 0 0 70px "#0000ff";
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 55px #ff0000, 0 0 70px #0000ff;
 }
 #header #icone_site {
   width: 130px;
@@ -25,10 +31,10 @@
 #sideBar a {
   margin-top: 50px;
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   font-family: "century gothic";
   color: #ffffcc;
-  text-shadow: 0 0 5px "#ffffff", 0 0 10px "#ffffff", 0 0 20px "#ffffff", 0 0 30px "#ffffff", 0 0 40px "#ffffff", 0 0 55px "#ff0000", 0 0 70px "#0000ff";
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 55px #ff0000, 0 0 70px #0000ff;
 }
 
 #footer {
@@ -43,5 +49,5 @@
 #footer a {
   font-family: "century gothic";
   color: #ffffcc;
-  text-shadow: 0 0 5px "#ffffff", 0 0 10px "#ffffff", 0 0 20px "#ffffff", 0 0 30px "#ffffff", 0 0 40px "#ffffff", 0 0 55px "#ff0000", 0 0 70px "#0000ff";
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 55px #ff0000, 0 0 70px #0000ff;
 }/*# sourceMappingURL=stylePadrão.css.map */
