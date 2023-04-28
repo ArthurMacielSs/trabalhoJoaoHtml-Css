@@ -1,7 +1,6 @@
 /* Prates alterações */
 
-
-h1, p, a{
+h1, h2, p{
     color: white;
 }
 
@@ -57,4 +56,90 @@ img{
     display: block;
     border: solid black;
     border-radius: 30px;
+}
+
+.falcao{
+    transition:2s all;   
+}
+.petroleo{
+    transition:2s all;   
+}
+.marte{
+    transition:2s all;   
+}
+.tentaculos{
+    transition:2s all;   
+}
+.obama{
+    transition:2s all;   
+}
+.dominio{
+    transition:2s all;   
+}
+.cuba{
+    transition:2s all;   
+}
+.stick{
+    transition:2s all;   
+}
+.panama{
+    transition:2s all;   
+}
+.iraque{
+    transition:2s all;   
+}
+.abocanhando{
+    transition:2s all;   
+}
+.leao{
+    transition:2s all;   
+}
+
+.falcao:hover{
+    background-color: #000000;
+    transform: scale(1.2)
+}
+.petroleo:hover{
+    background-color: #000000;
+    transform: scale(1.2)
+}
+.marte:hover{
+    background-color: #000000;
+    transform: scale(1.2)
+}
+.tentaculos:hover{
+    background-color: #000000;
+    transform: scale(1.2)
+}
+.obama:hover{
+    background-color: #000000;
+    transform: scale(1.2)
+}
+.dominio:hover{
+    background-color: #000000;
+    transform: scale(1.2)
+}
+.cuba:hover{
+    background-color: #000000;
+    transform: scale(1.2)
+}
+.stick:hover{
+    background-color: #000000;
+    transform: scale(1.2)
+}
+.panama:hover{
+    background-color: #000000;
+    transform: scale(1.2)
+}
+.iraque:hover{
+    background-color: #000000;
+    transform: scale(1.2)
+}
+.abocanhando:hover{
+    background-color: #000000;
+    transform: scale(1.2)
+}
+.leao:hover{
+    background-color: #000000;
+    transform: scale(1.2)
 }
