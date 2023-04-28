@@ -32,3 +32,8 @@ p{
     color: white;
 }
 
+#TUDOSOBRE{
+    background-color: black;
+    min-height: 30vh;
+    border-radius: 20px;
+}
