@@ -3,8 +3,6 @@
 }
 #Sobre #sobreFoto{
     width: 200px;
-    
-
 }
 #Sobre p{
     font-size: 35px ;
@@ -60,7 +58,7 @@
     margin-top: 50px;
     text-align: center;
     font-size: 40px;
-   color: white;
+    color: white;
 }
 #Videos{
     display: flex;
@@ -71,10 +69,10 @@
 }
 
 #Sobre{
-display: flex;
-flex-direction: column;
-width: 1400px;
-margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 1400px;
+    margin: auto;
 }
 
 @media screen and (max-width: 560px){
@@ -94,7 +92,4 @@ margin: auto;
         position: fixed;
         bottom: 0;
     }
-     
-    
-    
 }

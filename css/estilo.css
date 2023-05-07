@@ -1,16 +1,19 @@
 /* Prates alterações */
-
 h1, h2, p, a{
     color: white;
 }
 
-
-body{
-    background-image: linear-gradient(to right, blue, red);
-    margin: 0px;
+#referencias a{
+    font-size: 20px;
 }
 
+#footer p{
+    font-size: 20px;
+}
 
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
 
 #sideBar h2{
     text-align: center;
@@ -28,8 +31,7 @@ h1{
 .grupo{
     display: flex;
     flex-wrap: wrap;
-    max-width: 1200px;
-    margin: 0 auto;
+
 }
 
 .grupo > div{
@@ -41,7 +43,7 @@ h1{
 .galeria{
     display: flex;
     flex-wrap: wrap;
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 

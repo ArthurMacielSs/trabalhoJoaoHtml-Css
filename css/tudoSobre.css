@@ -1,7 +1,12 @@
 #classePrincipal{
     height: 170vh;
+    background-color: black;
+}
+#Afeganistão{
+    padding-bottom: 8%;
 }
 h1{
+    margin  : 50px;
     text-align: center;
     font-size: 40px;
     font-family: "century gothic";
@@ -13,8 +18,9 @@ h1{
 
 }
 
-h2{
-    text-align: center;
+h2, h3{
+
+    text-align: left;
     font-size: 30px;
     font-family: "century gothic";
     color: #ffffcc;
@@ -25,35 +31,8 @@ p{
     color: white;
 }
 
-#TUDOSOBRE{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 5vw;
-    margin: 5vw;
-    
-}
-
-#text1{
-    background-color: black;
-    min-height: 30vh;
-    border-radius: 20px;
-}
-#text2{
-    background-color: black;
-    min-height: 30vh;
-    border-radius: 20px;
-}
-#text3{
-    background-color: black;
-    min-height: 30vh;
-    border-radius: 20px;
-}
-#text4{
-   
-    margin: auto;
-    background-color: black;
-    min-height: 30vh;
-    border-radius: 20px;
+#footer p{
+    font-size: 20px;
 }
 
 @media screen and (max-width: 800px){
@@ -63,9 +42,6 @@ p{
     }
     #footer{
         position: fixed;
-        bottom: 0;
+        bottom: 0%;
     }
-     
-    
-    
 }
